@@ -1,0 +1,80 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: fixed;
+    background-color: black;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+
+
+.contenedor{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.encabezado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(106, 106, 172);
+    color: white;
+    padding: 5px 0 ;
+    font: 800;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 15px 0;
+    text-align: center;
+    background-color: rgb(219, 112, 112);
+    ;
+}
+
+.menu1{
+    margin: 10px 10px;    
+    text-align: center;
+    display: inline-block;
+}
+
+.menu1 a{
+    
+    margin: 0 10px 0 10px;
+}
+
+
+.seccion{
+    width: 40%;
+    margin: 20px 5%;
+    background: fixed;
+    background-color: rgb(104, 192, 104);
+    font-size: xx-large;
+    height: 700px;
+        
+}
+
+
+
+.lorem{
+    font-size: medium;
+}
+
+.lateral{
+    width: 40%;
+    margin: 20px 5%;
+    background-color: beige;
+    height: 1000px;
+}
+
+.final{
+    width: 100%;
+    background-color: indianred;
+}
